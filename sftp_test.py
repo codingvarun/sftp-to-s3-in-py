@@ -5,7 +5,6 @@ import os,shutil
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
-shutil.rmtree("sftp_downloads")
 os.mkdir("sftp_downloads")
 conn = pysftp.Connection(host="test.rebex.net",
                          username="demo",
@@ -31,3 +30,4 @@ for file in files:
                             Key=file_key)
     print(response)
 s3.close()
+shutil.rmtree("sftp_downloads")
