@@ -2,8 +2,6 @@ import pysftp
 import boto3
 import pandas as pd
 import os,shutil
-cnopts = pysftp.CnOpts()
-cnopts.hostkeys = None
 
 os.mkdir("sftp_downloads")
 conn = pysftp.Connection(host="test.rebex.net",
