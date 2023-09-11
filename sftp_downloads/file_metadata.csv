@@ -1,3 +1,0 @@
-_flags,st_size,st_uid,st_gid,st_mode,st_atime,st_mtime,attr,filename,longname
-13,0,,,16832,1680277921,1680277921,{},pub,drwx------ 2 demo users          0 Mar 31 17:52 pub
-13,405,,,33152,1680277922,1639738728,{},readme.txt,-rw------- 1 demo users        405 Dec 17  2021 readme.txt
